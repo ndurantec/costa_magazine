@@ -133,16 +133,19 @@ nav {
  	/*background-color: #191970;*/
  }
 
+
  *{
 	margin: 0;
 	padding: 0;
 }
 #topo{
 	height: 70px;
-	background: black;
+ 	background-color: #FFF;
+     background: white;
 }
 #menu{
-	background-color: rgba(black);
+ 	background-color: #FFF;
+     background-color: rgba();
 }
 #menu ul, li{
 	display: inline-table;
@@ -157,7 +160,8 @@ nav {
 	background-color: rgba(white);
 }
 #conteudo{
-	background-color: black;
+ 	background-color: #FFF;
+     background-color: white;
 	min-height: 500px;
 }
 #slider {
