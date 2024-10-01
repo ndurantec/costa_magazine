@@ -1,0 +1,153 @@
+html {
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* reset */
+body {
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, p, span {
+	margin: 0;
+	color: #666;
+}
+
+.container {
+	max-width: 1920px;
+	width: 100%;
+}
+
+/* header */
+header {
+	position: relative;
+	top: 0;
+	height: auto;
+	width: 100%;
+}
+
+/* navbar */
+nav { 
+	position: fixed;
+	top: 0;
+	height: 150px;
+	width: 100%;
+	z-index: 1;
+	background-color: #0086ff;;
+	border-bottom: 1px solid #CCC;
+ }
+
+ nav:after {
+ 	clear: both;
+ 	content: "";
+ 	display: block;
+ }
+
+ .nav-container {
+ 	max-width: 1200px;
+ 	position: relative;
+ 	margin-right: auto;
+ 	margin-left: auto; 	
+ }
+
+ #logo {
+ 	width: 120px;
+ 	height: 120px;
+ 	margin-top: 10px;
+    
+ }
+ .separator {
+        height: 5px;
+        background: linear-gradient(
+            90deg, 
+            #FFFF4A 0%, 
+            #FCD000 4%, 
+            #FFC112 8%, #FFC112 11%, #FF8A00 16%, #FF5F5F 22%, #FF253A 28%, #FF37A8 37%, #C739FF 49%, #A400E1 56%, #2ECEFF 72%, #0086FF 80%, #72F772 94%, #00D604 100%);
+        max-width: 956px;
+        margin: -5px 450px;
+ }
+
+
+ .nav-container ul {
+ 	float: right;
+ 	height: 100px;
+ 	line-height: 100px;
+ 	margin: 0;
+ }
+
+ .nav-container li {
+ 	list-style: none;
+ 	float: left;
+ 	margin: 0 15px;
+ }
+
+ .nav-container li a {
+ 	text-decoration: none;
+ 	color: #fff;
+ 	transition: .5s;
+ }
+
+ .nav-container li a:hover {
+ 	color: #3381F3;
+ }
+
+/* banner  */
+ #main-banner {
+ 	background-color: red;
+ 	background: url('../img/banner6.jpg') no-repeat;
+ 	background-size: cover;
+ 	background-position: 0 55%;
+ 	position: relative;
+ 	margin-top: 100px;
+ }
+
+ #search-form {
+ 	position: relative;
+ 	width: 80%;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	padding-top: 15em;
+ 	padding-bottom: 15em;
+ 	text-align: center;
+ }
+
+ #search-form h1 {
+ 	font-size: 40px;10px
+ 	margin-top: 30px;
+ 	margin-bottom: 60px;
+ 	font-size: 18px;
+ 	font-weight: 300px;
+ }
+
+/* Formulario */
+ #search-form input, #search-form select {
+ 	background-color: #FFF;
+ 	border-radius: 5px;
+ 	border-color: transparent;
+ 	padding: 10px 20px;
+ 	font-size: 18px;
+ 	margin: 0 10px;
+ }
+
+#search-form input[type=submit] {
+ 	background-color: #3381f3;
+ 	text-transform: uppercase;
+ 	color: #FFF;
+ 	cursor: pointer;
+ 	transition: 0.5s;
+ }
+
+ #search-form input[type=submit]:hover {
+ 	background-color: #2B79EB;
+ 	/*background-color: #191970;*/
+ }
+
+ #logo2 {
+    width: 170px;
+    height: 120px;
+    margin: 30px -100px;
+   
+}
+
+.bars {
+    color: #FFF
+}
