@@ -35,6 +35,7 @@ nav {
 	background-color: #0086ff;;
 	border-bottom: 1px solid #CCC;
  }
+ 
 
  nav:after {
  	clear: both;
@@ -53,6 +54,14 @@ nav {
  	width: 100px;
  	height: 100px;
  	margin-top: 0px;
+ }
+
+ .separator {
+    height: 5px;
+    background: linear-gradient(90deg, #FFFF4A 0%, #FCD000 4%, #FFC112 8%, #FFC112 11%, #FF8A00 16%, #FF5F5F 22%, #FF253A 28%, #FF37A8 37%, #C739FF 49%, #A400E1 56%, #2ECEFF 72%, #0086FF 80%, #72F772 94%, #00D604 100%);
+    max-width: 956px;   
+	position: relative;
+	top: -9px;
  }
 
  .nav-container ul {
