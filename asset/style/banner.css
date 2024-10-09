@@ -56,9 +56,9 @@ nav {
  	margin-top: 25px;
  }
 
- #segundo_banner {
+ /* #segundo_banner {
 	
- }
+ } */
 
  .nav-container ul {
  	float: right;
@@ -226,4 +226,9 @@ img{
     width: 50px;
     margin: 15px;
     border-radius: 50%;
+}
+
+#class figure img {
+	width: 10%;
+	float: left;
 }
