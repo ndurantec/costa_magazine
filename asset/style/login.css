@@ -7,9 +7,19 @@ body {
 	margin: 0;
 }
 
-h1, h2, h3, h4, h5, p, span {
-	margin: 0;
+#txt_login {
+	font-size: 33px;
+}
+
+h1 {
+	margin: 82px;
 	color: #0083ca;
+}
+
+#numero1_id  {
+	width: 200px;
+	height: 34px;
+	margin-top: 0px;
 }
 
 .container {
