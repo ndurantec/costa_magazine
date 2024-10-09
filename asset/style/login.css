@@ -16,6 +16,12 @@ h1 {
 	color: #0083ca;
 }
 
+#numero1_id  {
+	width: 200px;
+	height: 34px;
+	margin-top: 0px;
+}
+
 .container {
 	max-width: 1920px;
 	width: 100%;
