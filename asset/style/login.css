@@ -27,7 +27,7 @@ h1 {
 #numero1_id  {
 	width: 200px;
 	height: 25px;
-	margin-left: 230px;
+	margin-left: -214px;
 }
 
 .container {
@@ -154,7 +154,10 @@ nav {
  	transition: 0.5s;
  }
 
- #search-form input[type=submit]:hover {
- 	background-color: #2B79EB;
- 	/*background-color: #191970;*/
- }
+
+
+.corpo{
+ display: flex;
+ justify-content:flex-start;
+ align-items: center;
+}
