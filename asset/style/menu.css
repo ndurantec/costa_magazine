@@ -107,7 +107,7 @@ nav {
 }
 
 .nav-container li a:hover {
-	color: #3381F3;
+	color: #000;
 }
 
 /* banner  */
@@ -225,4 +225,8 @@ nav {
 	color:#FFF;
 	margin: -27px 1255px;
 	white-space: nowrap;
+}
+
+.bemvindo {
+	margin: -20px 30px;
 }
