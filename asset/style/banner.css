@@ -86,20 +86,20 @@ nav {
  }
 
  .nav-container li a:hover {
- 	color: #3381F3;
+ 	color: #490f2f;
  }
 
 /* banner  */
- #main-banner {
+ /* #main-banner {
  	background-color: red;
  	background: url('../img/banner6.jpg') no-repeat;
  	background-size: cover;
  	background-position: 0 55%;
  	position: relative;
  	margin-top: 100px;
- }
+ } */
 
- #search-form {
+ /* #search-form {
  	position: relative;
  	width: 80%;
  	margin-left: auto;
@@ -107,12 +107,12 @@ nav {
  	padding-top: 15em;
  	padding-bottom: 15em;
  	text-align: center;
- }
+ } */
 
  /* #search-form h1 {
  	font-size: 40px;
  } */
-
+/* 
  #search-form p {
  	margin-top: 30px;
  	margin-bottom: 60px;
@@ -121,7 +121,7 @@ nav {
  }
 
 /* Formulario */
- #search-form input, #search-form select {
+ /* #search-form input, #search-form select {
  	background-color: #FFF;
  	border-radius: 5px;
  	border-color: transparent;
@@ -135,13 +135,13 @@ nav {
  	text-transform: uppercase;
  	color: #FFF;
  	cursor: pointer;
- 	transition: 0.5s;
- }
+ 	transition: 0.5s; */
+ /* } */
 
- #search-form input[type=submit]:hover {
- 	background-color: #2B79EB;
+ /* #search-form input[type=submit]:hover {
+ 	background-color: #2B79EB; */
  	/*background-color: #191970;*/
- }
+ /* } */ */
 
 
 
@@ -165,12 +165,12 @@ nav {
 }
 #menu ul li:hover{
 	background-color: rgba(white);
-}
-#conteudo{
+} */
+/* #conteudo{
  	background-color: #FFF;
      background-color: white;
 	min-height: 500px;
-}
+} */
 #slider {
 	overflow: hidden;
 }
@@ -223,13 +223,13 @@ img{
 	object-fit: contain;
 }
 
-.slogan-image {
+/* .slogan-image {
     float: left;
     height: 50px;
     width: 50px;
     margin: 15px;
     border-radius: 50%;
-}
+} */
 
 #class figure img {
 	width: 11%;
@@ -240,4 +240,5 @@ img{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	width: 2cm;
 }
